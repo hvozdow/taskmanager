@@ -9,6 +9,9 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+group :development do
+  gem 'mailcatcher', '0.5.10'
+end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
